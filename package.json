@@ -7,7 +7,8 @@
     "start": "vite",
     "build": "vite build",
     "test": "vitest run --no-threads",
-    "test:coerage": "yarn test --coverage",
+    "tsc": "tsc -p tsconfig.json --noEmit",
+    "test:coverage": "yarn test --coverage",
     "lint": "eslint . --ext .ts --fix"
   },
   "keywords": [],
